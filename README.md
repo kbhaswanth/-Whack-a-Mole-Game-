@@ -29,3 +29,5 @@
    ```bash
    git clone https://github.com/yourusername/whack-a-mole.git
    cd whack-a-mole
+
+   link: https://kbhaswanth.github.io/-Whack-a-Mole-Game-/
