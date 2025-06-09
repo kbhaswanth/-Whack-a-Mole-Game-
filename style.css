@@ -1,0 +1,84 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f3f598;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  border: 20px solid  gold;
+}
+
+h1 {
+  color: #2e7d32;
+}
+
+.scoreboard {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  
+  
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(3, 120px);
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.hole {
+  width: 120px;
+  height: 120px;
+  background-color: #a5d6a7;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+}
+
+.mole {
+  background-image: url('https://em-content.zobj.net/thumbs/160/google/350/frog_1f438.png');
+  background-size: cover;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 20px;
+  left: 20px;
+  display: none;
+}
+
+#restart-btn {
+  padding: 10px ;
+  font-size: 16px;
+  background-color: #388e3c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#restart-btn:hover {
+  background-color: #2e7d32;
+}
+#start-btn,
+#stop-btn,
+#restart-btn {
+  margin: 10px 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #388e3c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#stop-btn {
+  background-color: #d32f2f;
+}
+
+#start-btn:hover,
+#stop-btn:hover,
+#restart-btn:hover {
+  opacity: 0.9;
+}
+
